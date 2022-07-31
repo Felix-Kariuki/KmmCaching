@@ -1,8 +1,7 @@
 package com.flexcode.kmmcaching.network
 
-import com.flexcode.kmmcaching.entity.Characters
+
 import com.flexcode.kmmcaching.entity.Quotes
-import com.flexcode.kmmcaching.entity.Results
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.plugins.contentnegotiation.*
