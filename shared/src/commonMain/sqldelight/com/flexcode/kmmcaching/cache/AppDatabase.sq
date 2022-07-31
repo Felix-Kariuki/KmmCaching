@@ -1,0 +1,16 @@
+CREATE TABLE Quotes (
+id TEXT NOT NULL,
+author TEXT NOT NULL,
+en TEXT NOT NULL
+);
+
+insertQuote:
+INSERT INTO Quotes(id,author,en)
+VALUES (?,?,?);
+
+deleteQuotes:
+DELETE FROM Quotes;
+
+getAllQuotes:
+SELECT *
+FROM Quotes;
