@@ -9,6 +9,7 @@ SqDelight Pros
 If you are good in Swift Feel Free to implement the IOS Design 
 
 ## ScreenShot
+<img src="/screenshots/home.png" width="360">&emsp;
 
 ## Plugins and Resources
 
