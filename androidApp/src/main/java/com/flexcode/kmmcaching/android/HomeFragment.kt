@@ -67,7 +67,8 @@ class HomeFragment : Fragment() {
             kotlin.runCatching {
                 sdk.getCharacters(fetchFromRemote)
             }.onSuccess {
-                //stop loading
+                //TODO:stop loading progress
+                quotesList.addAll(it)
                 quotesAdapter.submitList(it)
                 binding.rvQuotes.adapter = quotesAdapter
             }.onFailure {
