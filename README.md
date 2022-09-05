@@ -14,7 +14,7 @@ If you are good in Swift Feel Free to implement the IOS Design
 ## Plugins and Resources
 
 * [KMM Plugin](https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform-mobile)
-* [SqDelight Plugin](https://plugins.jetbrains.com/plugin/8191-sqldelight)
+* [SqlDelight Plugin](https://plugins.jetbrains.com/plugin/8191-sqldelight)
 * Resources
 
   * [Ktor Network Requests](https://ktor.io/docs/request.html)
