@@ -15,7 +15,7 @@ class QuotesXSDK(databaseDriverFactory: DatabaseDriverFactory) {
         return if (cachedQuotes.isNotEmpty() && !fetchFromRemote){
             cachedQuotes
         }else {
-            api.getAllCharacters().also {
+            api.getAllQuotes().also {
                 db.clearDatabase()
                 db.createQuotes(it)
             }

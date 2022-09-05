@@ -22,7 +22,7 @@ class QuotesApi {
     }
 
 
-    suspend fun getAllCharacters(): List<Quotes>{
+    suspend fun getAllQuotes(): List<Quotes>{
         val response = httpClient.get(BASE_URL+ CHARACTERS_ENDPOINT)
         println(response.body<Any?>().toString())
         return response.body()

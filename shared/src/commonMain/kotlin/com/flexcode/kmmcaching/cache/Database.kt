@@ -1,8 +1,6 @@
 package com.flexcode.kmmcaching.cache
 
-import com.flexcode.kmmcaching.entity.Characters
 import com.flexcode.kmmcaching.entity.Quotes
-import com.flexcode.kmmcaching.entity.Results
 
 internal class Database(databaseDriverFactory: DatabaseDriverFactory) {
     private val database = AppDatabase(databaseDriverFactory.createDriver())
