@@ -1,6 +1,8 @@
 # KmmCaching
 An application that illustrates fetching data from remote data source and caching it in local storage for both IOS and Android platforms using Kotlin Multiplatform Mobile and SqlDelight.
 
+### `NOTE:` The api used to develop this project was hosted on heroku and is no longer hosted so you might fail to see the quotes
+
 SqDelight Pros
 * It generates type-safe code and classes from the different SQL statements.
 * It is compatible with Kotlin Multi-platform (KMM) 
